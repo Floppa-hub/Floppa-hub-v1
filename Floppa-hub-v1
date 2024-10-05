@@ -20,3 +20,9 @@ local animationTrack = humanoid:LoadAnimation(animation)
 animationTrack:Play()
   	end    
 })
+--other tab
+local Tab = Window:MakeTab({
+	Name = "Movesets",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
