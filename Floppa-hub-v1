@@ -6,7 +6,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Button!",
+	Name = "The hunt Fe Key",
 	Callback = function()
       		local animationId = "16719053698"
 
@@ -20,6 +20,15 @@ local animationTrack = humanoid:LoadAnimation(animation)
 animationTrack:Play()
   	end    
 })
+Tab:AddButton({
+	Name = "Fake Kj Msg",
+	Callback = function()
+      		player =  "S"
+fakemsg = "Kj Is Now Free In Private Servers."
+message = "###########                                                                                                                                     ["..tostring(player).."] "..tostring(fakemsg)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+  	end    
+})
 --other tab
 local Tab = Window:MakeTab({
 	Name = "Movesets",
@@ -30,5 +39,73 @@ Tab:AddButton({
 	Name = "Hero Hunter To Goku",
 	Callback = function()
       		loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-hunter-moveset-into-OP-goku-moveset-17468"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "blade master to sukuna (lag spike)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Saitama to jun",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "metal bat to apophenia",
+	Callback = function()
+      		getgenv().Music = false 
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+getgenv().AttackQuality = 'High'
+--Set to Low,High
+
+ getgenv().ConstantSpeed = false
+--if you want your speed to be constant
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "saitama to hakari",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-to-True-Nosakatan-18742"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "saitama to gojo",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "hero hunter to sonic",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
+  	end    
+})
+--other tab
+local Tab = Window:MakeTab({
+	Name = "Other Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Camera Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/Key%20System%20Camera%20Hub"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Bill Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/u89XGx98"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "skibidi cat hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/KKo8Fa0c/raw"))()
   	end    
 })
