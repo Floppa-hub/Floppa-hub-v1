@@ -26,3 +26,9 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab:AddButton({
+	Name = "Hero Hunter To Goku",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-hunter-moveset-into-OP-goku-moveset-17468"))()
+  	end    
+})
